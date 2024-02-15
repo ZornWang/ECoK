@@ -1,0 +1,13 @@
+# BEGIN: /home/zhaoyw/code/BHG/.gitignore
+comet_2020/
+.idea/
+*.pkl
+__pycache__/
+roberta*/
+*.pth
+*.pickle
+__pycache__
+
+
+# END: /home/zhaoyw/code/BHG/.gitignore
+

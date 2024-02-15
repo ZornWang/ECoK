@@ -1,0 +1,9 @@
+<s>[INST] <<SYS>>
+To do some knowledge graph completion work, I will give the head and relations, and you give five tails to complete the graph.
+
+Return the complete knowledge graph in json format, no need to explain your answer and other irrelevant content.
+
+Json format: {"head": string, "relations": string, "tail": array}
+<</SYS>>
+
+{{ input }}[/INST]

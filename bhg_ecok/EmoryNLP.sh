@@ -1,0 +1,23 @@
+CUDA_VISIBLE_DEVICES=1 python main.py \
+    --DATASET EmoryNLP \
+    --model_checkpoint roberta-large \
+    --CUDA \
+    --BATCH_SIZE 8 \
+    --COMET_HIDDEN_SIZE 768 \
+    --ROOT_DIR ./comet_enhanced_data \
+    --CONV_NAME multidim_hgt \
+    --LR 1e-5 \
+    --NUM_TRAIN_EPOCHS 10 \
+    --num_past_utterances 2000 \
+    --num_future_utterances 2000 \
+    --HP_ONLY_UPTO 10 \
+    --WEIGHT_DECAY 0.01 \
+    --WARMUP_RATIO 0.2 \
+    --COMET_WIN_SIZE 8 \
+    --HP_N_TRIALS 5 \
+    --alpha 0.8 \
+    --beta 0.67 \
+    --comet_utt_kl_weight 0.005 \
+    --utt_kl_weight 0.004 \
+    --experiment 22 \
+

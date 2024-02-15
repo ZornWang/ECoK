@@ -1,0 +1,12 @@
+<s>[INST] <<SYS>>
+To do some knowledge graph completion work, I will give the head and relations, and you give five tails to fill the "tails" field of one return json object to complete the graph. 
+
+This is 5 Examples, ignore these when reply:
+{{ examples }}
+
+Return the complete knowledge graph in the given json format, just return one json object, no need to explain your answer and other irrelevant content.
+
+The reply json format: {"head": string, "relations": string, "tails": array}
+<</SYS>>
+
+{{ input }}[/INST]

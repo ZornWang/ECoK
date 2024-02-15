@@ -1,0 +1,21 @@
+CUDA_VISIBLE_DEVICES=7 python main.py \
+    --DATASET DailyDialog \
+    --model_checkpoint roberta-large \
+    --CUDA \
+    --BATCH_SIZE 4 \
+    --COMET_HIDDEN_SIZE 768 \
+    --ROOT_DIR ./comet_enhanced_data \
+    --CONV_NAME multidim_hgt \
+    --LR 2e-6 \
+    --NUM_TRAIN_EPOCHS 10 \
+    --num_past_utterances 1500 \
+    --num_future_utterances 1500 \
+    --HP_ONLY_UPTO 10 \
+    --WEIGHT_DECAY 0.01 \
+    --WARMUP_RATIO 0.2 \
+    --HP_N_TRIALS 5 \
+    --alpha 0.8 \
+    --beta 0.5 \
+    --comet_utt_kl_weight 0.005 \
+    --experiment 8 \
+
