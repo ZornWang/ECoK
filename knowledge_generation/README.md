@@ -1,5 +1,5 @@
 # Emotion Knowledge Generation
-This folder contains the source code of our experiments in **ECoK Section 5.1**. Most of the code in this folder comes from the [PeaCoK repository](https://github.com/Silin159/PeaCoK/tree/main/knowledge_generation). The The baseline directory contains code modified from the [alexa-with-dstc9-track1-dataset repository](https://github.com/alexa/alexa-with-dstc9-track1-dataset.git).
+This folder contains the source code of our experiments in **ECoK Section 5.1**. Code is based on [PeaCoK repository](https://github.com/Silin159/PeaCoK/tree/main/knowledge_generation). The The baseline directory contains code modified from the [alexa-with-dstc9-track1-dataset repository](https://github.com/alexa/alexa-with-dstc9-track1-dataset.git).
 ## Requirements
 You need three enviroments:
 1. Python 3.10 for DeBERTa traing, COMET-BART & GPT3.5-turbo & GPT4-turbo, and DeBERTa ranking
