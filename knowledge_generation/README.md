@@ -30,7 +30,7 @@ ECoK data in various formats can be downloaded from [this link](https://drive.go
 ### Model Checkpoints
 The trained COMET-ECoK is [here](https://drive.google.com/file/d/1OizLrNaBl4_s4UUKAMVNfRKRj3t3zLFI/view?usp=sharing), please move the model checkponts to `/models`. The trained DeBERTa is [here](https://drive.google.com/file/d/1KRn0-JyjjJFBDws-bP_N2i8LOly8-1Ft/view?usp=sharing), move the checkponts to `/deberta_model`
 ## Model Traing
-If you want to train you own COMET-ECoK, please follow the guide [here](https://drive.google.com/file/d/12gQvQ6xHiDIdUE3uRSl8h_HiOBZcL3XI/view?usp=sharing) and replace the dataset to ECoK dataset.
+If you want to train you own COMET-ECoK, please follow the guide [here](https://github.com/allenai/comet-atomic-2020) and replace the dataset to ECoK dataset.
 
 If you want to train you own DeBERTa, run the following script in ecok310 environment:
 ```
